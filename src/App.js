@@ -23,9 +23,9 @@ function App() {
       setMsg('Game is Over !1!')
       setDisabled(true)
     }else if(Number(randomNumber) < Number(userGuess)){
-      setMsg('Worng guess! It may be little lower')
+      setMsg('Worng guess! It may be little Lower')
     }else if(Number(randomNumber) > Number(userGuess)){
-      setMsg('Worng guess! It may be little higher')
+      setMsg('Worng guess! It may be little Higher')
     }else if(Number(userGuess) > 10){
       setMsg('Worng Guess !!!')
     }
